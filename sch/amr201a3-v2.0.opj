@@ -1,0 +1,183 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "e:\2016年批示\orcad libraries\liborcadcomm.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\amr201a3-v2.0.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\amr201a3-v2.0.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (RES3
+      (FullPartName "RES3.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (RES1
+      (FullPartName "RES1.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (BAS40-05-REDO
+      (FullPartName "BAS40-05-REDO.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (CAP
+      (FullPartName "CAP.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (RES2
+      (FullPartName "RES2.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (BAS40-05
+      (FullPartName "BAS40-05.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (TVSBI
+      (FullPartName "TVSBI.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (FB2
+      (FullPartName "FB2.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (Off_Page_Bi_R
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (Off_Page_In_R
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (SX1272
+      (FullPartName "SX1272.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (D3V0
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "E:\2016年批示\MILLIAMMETER_V1.00\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (Off_Page_Out_L
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (Off_Page_In_L
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (Off_Page_Out_R
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (STM32F030CX
+      (FullPartName "STM32F030CX.Normal")
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (TitleBlockForQinChuan
+      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\amr201a3-v2.0.dsn")
+      (Path "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\amr201a3-v2.0.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "e:\2016年批示\orcad libraries\liborcadcomm.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 902"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 757 200 666")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1929 276")
+        (Zoom "336"))
+      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "CON2"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 701 125 680")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2107 1976")
+        (Zoom "1008"))
+      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "ZENER_CK_AAJ"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1141 125 680")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "-99 0")
+        (Zoom "12"))
+      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "BAS40-05-REDO"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1166 150 705")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3062 1409")
+        (Zoom "783"))
+      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "BAS40-04-REDO"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 726 150 705")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "1516 1397")
+        (Zoom "665"))
+      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "MOSFET N1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 100 1409 100 686")
+        (Scroll "49 226")
+        (Zoom "90")
+        (Occurrence "/"))
+      (Path "E:\201A3-V2.0-GIT\SCH\AMR201A3-V2.0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Administrator"))
