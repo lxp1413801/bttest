@@ -4,6 +4,8 @@
   (Folder "Design Resources"
     (Folder "Library"
       (File "e:\2016年批示\orcad libraries\liborcadcomm.olb"
+        (Type "Schematic Library"))
+      (File "d:\orcad libraries\liborcadcomm.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\amr201a3-v2.0.dsn"
@@ -12,10 +14,27 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (DOCKED "TRUE")
-    (DOCKING_POSITION "59420"))
+    (DOCKING_POSITION "59420")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (SX1272
+      (FullPartName "SX1272.Normal")
+      (LibraryName "D:\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (SX1276
+      (FullPartName "SX1276.Normal")
+      (LibraryName "D:\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (SX1262
+      (FullPartName "SX1262.Normal")
+      (LibraryName "D:\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
+    (BGU8L1
+      (FullPartName "BGU8L1.Normal")
+      (LibraryName "D:\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
@@ -74,10 +93,6 @@
     (Off_Page_In_R
       (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
       (DeviceIndex "0"))
-    (SX1272
-      (FullPartName "SX1272.Normal")
-      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (DeviceIndex "0"))
     (D3V0
       (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
       (DeviceIndex "0"))
@@ -96,9 +111,6 @@
     (STM32F030CX
       (FullPartName "STM32F030CX.Normal")
       (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (DeviceIndex "0"))
-    (TitleBlockForQinChuan
-      (LibraryName "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -107,77 +119,33 @@
       (Path "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\amr201a3-v2.0.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "e:\2016年批示\orcad libraries\liborcadcomm.olb"))
+      (Path "Design Resources" "Library" "d:\orcad libraries\liborcadcomm.olb")
+      (Select "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1" "SX1272"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 902"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 565"))
       (Tab 0))
     (Doc
       (Type "COrPartDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 200 757 200 666")
+        (Placement "44 0 1 -1 -1 -8 -30 75 679 75 449")
         (PackageScroll "0 0")
         (PackageZoom "1")
         (PartPackage "Part")
-        (Scroll "1929 276")
-        (Zoom "336"))
-      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "CON2"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 701 125 680")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2107 1976")
-        (Zoom "1008"))
-      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "ZENER_CK_AAJ"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 125 1141 125 680")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "-99 0")
-        (Zoom "12"))
-      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "BAS40-05-REDO"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 1166 150 705")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "3062 1409")
-        (Zoom "783"))
-      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "BAS40-04-REDO"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 150 726 150 705")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1516 1397")
-        (Zoom "665"))
-      (Path "E:\2016年批示\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "MOSFET N1"))
+        (Scroll "199 156")
+        (Zoom "188"))
+      (Path "D:\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
+      (Package "SX1272"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 100 1409 100 686")
-        (Scroll "49 226")
-        (Zoom "90")
+        (Placement "44 2 3 -1 -1 -8 -30 50 934 50 424")
+        (Scroll "-159 -6")
+        (Zoom "42")
         (Occurrence "/"))
-      (Path "E:\201A3-V2.0-GIT\SCH\AMR201A3-V2.0.DSN")
+      (Path "G:\2018\201A3\BTTEST\SCH\AMR201A3-V2.0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+      (Page "SX1272")))
   (MPSSessionName "Administrator"))
