@@ -1,0 +1,75 @@
+Date and Time : 07/11/18 15:30:02
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: SX1272 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+#1 ERROR(ORCAP-36041): Duplicate Pin Name "GND" found on Package BGU8L1_0 , U7 Pin Number 4: SCHEMATIC1, SX1272 (325.12, 71.12). Please renumber one of these.
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance S1: SCHEMATIC1, SX1272 (33.02, 134.62).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D4: SCHEMATIC1, SX1272 (58.42, 175.26).
+#4 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CON2: SCHEMATIC1, SX1272 (30.48, 256.54).
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CON3: SCHEMATIC1, SX1272 (246.38, 208.28).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D5: SCHEMATIC1, SX1272 (58.42, 165.10).
+#7 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C15: SCHEMATIC1, SX1272 (147.32, 30.48).
+#8 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C5: SCHEMATIC1, SX1272 (99.06, 35.56).
+#9 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U6: SCHEMATIC1, SX1272 (116.84, 167.64).
+#10 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance CON4: SCHEMATIC1, SX1272 (35.56, 86.36).
+#11 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C19: SCHEMATIC1, SX1272 (55.88, 66.04).
+#12 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance C72: SCHEMATIC1, SX1272 (248.92, 132.08).
+#13 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance ANT1: SCHEMATIC1, SX1272 (406.40, 48.26).
+#14 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, SX1272 (50.80, 25.40).
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS  VSS  GND
+                    SCHEMATIC1, SX1272  (106.68, 269.24) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VSS  VSS  GND
+                    SCHEMATIC1, SX1272  (154.94, 213.36) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  D2V7
+                    SCHEMATIC1, SX1272  (154.94, 215.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  D2V7
+                    SCHEMATIC1, SX1272  (106.68, 213.36) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  D2V7
+                    SCHEMATIC1, SX1272  (106.68, 271.78) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD  VDD  D2V7
+                    SCHEMATIC1, SX1272  (154.94, 243.84) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

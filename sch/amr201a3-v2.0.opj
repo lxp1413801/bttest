@@ -118,33 +118,14 @@
       (Path "Design Resources" ".\amr201a3-v2.0.dsn")
       (Path "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1"))
-    (HierarchyView)
+      (Select "Design Resources" ".\amr201a3-v2.0.dsn" "SCHEMATIC1" "SX1262"))
+    (HierarchyView
+      (Select "SCHEMATIC1"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 310 0 902"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 902"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1212 50 636")
-        (Scroll "2863 1932")
-        (Zoom "342")
-        (Occurrence "/"))
-      (Path "E:\201A3-V2.0-GIT\BTTEST\SCH\AMR201A3-V2.0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SX1262"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1237 75 661")
-        (Scroll "-26 -10")
-        (Zoom "70")
-        (Occurrence "/"))
-      (Path "E:\201A3-V2.0-GIT\BTTEST\SCH\AMR201A3-V2.0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "SX1272"))
     (Doc
       (Type "COrPartDoc")
       (Frame
@@ -155,5 +136,26 @@
         (Scroll "1685 1306")
         (Zoom "773"))
       (Path "E:\2016ÄêÅúÊ¾\ORCAD LIBRARIES\LIBORCADCOMM.OLB")
-      (Package "CON2")))
-  (MPSSessionName "Administrator"))
+      (Package "CON2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1212 50 636")
+        (Scroll "413 192")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "E:\201A3-V2.0-GIT\BTTEST\SCH\AMR201A3-V2.0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SX1262"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 75 1237 75 661")
+        (Scroll "1285 105")
+        (Zoom "234")
+        (Occurrence "/"))
+      (Path "E:\201A3-V2.0-GIT\BTTEST\SCH\AMR201A3-V2.0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SX1272")))
+  (MPSSessionName "Administrator")
+  (ISPCBBASICLICENSE "false"))
